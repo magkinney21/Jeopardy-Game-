@@ -66,20 +66,14 @@ background-image:url("https://secure.static.tumblr.com/21ac89a9b86d7ca8c68623d83
 }
 .container1,.container2,.container3, .container4, .container5{
   display:inline-block;
+  align-items: center;
   height:100px;
   width:200px;
   padding:20px;
-  margin:10px;
+  margin:20px;
 }
-.container2{
-
-}
-.container3{
-
-}
-.container4{
-
-}
-.container5{
-
+button{
+  height:100px;
+  width: 200px;
+  margin:auto 0;
 }
