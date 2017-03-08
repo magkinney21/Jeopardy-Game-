@@ -3,48 +3,736 @@
 <head>
 <link rel="stylesheet" type="text/css" href="main.css">
   <title>Jeopardy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<head</head>
 <body>
-  <h1>Jeopardy</h1>
- <div class = "board">
-    <div class = "boxes">
+    <h1>Jeopardy</h1>
+  <div class = "boxes">
     <div id="first"></div>
       <div id="second"></div>
       <div id="third"></div>
       <div id="fourth"></div>
       <div id="fifth"></div>
    </div>
-   <div class="row1">
-     <button class="button">100</button>
-     <button class="button">100</button>
-     <button class="button">100</button>
-     <button class="button">100</button>
-   </div>
-   <div class = "row2">
-    <button class="button">200</button>
-     <button class="button">200</button>
-     <button class="button">200</button>
-     <button class="button">200</button>
-     </row>
-   <div class = "row3">
-    <button class="button">300</button>
-     <button class="button">300</button>
-     <button class="button">300</button>
-     <button class="button">300</button>
+
+<div class="container1">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal100">$100</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="animal100" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>What Animal is referred to as the king</h2>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Cat </button>
+          <button><span>B)</span> jaguar </button>
+          <button><span>C)</span> lion </button>
+          <button><span>D)</span> leopard</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
   </div>
-    <div class = "row4">
-   <button class="button">400</button>
-     <button class="button">400</button>
-     <button class="button">400</button>
-     <button class="button">400</button>
+</div>
+    <div class="container1">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art100">$100</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="art100" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>What artist painted this painting </h2>
+          <h4 class="modal-title"><img src="https://s-media-cache-ak0.pinimg.com/736x/49/2c/de/492cde9177cdbc3335ff49546e8a8b79.jpg"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> someone </button>
+          <button><span>B)</span> Leonardo </button>
+          <button><span>C)</span> Michael Angelo </button>
+          <button><span>D)</span> Picasso</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
   </div>
-   <div class = "row5">
-   <button class="button">500</button>
-     <button class="button">500</button>
-     <button class="button">500</button>
-     <button class="button">500</button>
-   </div>
+</div><div class="container1">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music100">$100</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="music100" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container1">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space100">$100</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="space100" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>What is the first planet in the our solar system</h2>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Mars </button>
+          <button><span>B)</span> Earth </button>
+          <button><span>C)</span> Mercury </button>
+          <button><span>D)</span> Venus </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container1">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book100">$100</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="book100" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Book</h2>
+          <h4 class="modal-title"><img src="http://blogs.princeton.edu/graphicarts/gatsby%20cover8-thumb.jpg"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Catcher and The Rye </button>
+          <button><span>B)</span> The Great Gatsby </button>
+          <button><span>C)</span> Mid summer nights dream </button>
+          <button><span>D)</span> Moby Dick</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <!--Start Row $200-->
+    <div class="container2">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal200">$200</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="animal200" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>What artist painting this</h2>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span>  </button>
+          <button><span>B)</span>  </button>
+          <button><span>C)</span>  </button>
+          <button><span>D)</span> </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <div class="container2">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art200">$200</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="art200" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>What artist painted this</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTQ869FK984wcjA7mj2YxOLCpD6W7zoQL2mhBXlPf-gfQuQMH-GCqczW9R5"/></h4>
+        </div>
+        <div class="modal-body">
+         <button><span>A)</span> Vincent van Gogh </button>
+          <button><span>B)</span> Raphael </button>
+          <button><span>C)</span> Rembrandt </button>
+          <button><span>D)</span> Andy Warhol</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container2">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music200">$200</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="music200" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src=""/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span>  </button>
+          <button><span>B)</span>  </button>
+          <button><span>C)</span>  </button>
+          <button><span>D)</span> </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container2">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space200">$200</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="space200" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container2">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book200">$200</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="book200" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <!--start row 3-->
+    <div class="container3">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art300">$300</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="art300" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <div class="container3">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art300">$300</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="art300" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <div class="container3">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music300">$300</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="music300" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container3">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space300">$300</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="space300" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container3">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book300">$300</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="book300" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <!start row 4-->
+    <div class="container4">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal400">$400</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="animal400" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <div class="container4">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art400">$400</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="art400" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container4">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music400">$400</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="music400" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container4">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space400">$400</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="space400" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container4">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book400">$400</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="book400" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <!--start row 5-->
+    <div class="container5">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal500">$500</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="animal500" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="container5">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art500">$500</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="art500" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container5">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music500">$500</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="music500" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><div class="container5">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space500">$500</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="space500" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+    <div class="container5">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space500">$500</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="space500" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Name This Band</h2>
+          <h4 class="modal-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3GAyyJ1tx3AeMY2cGPRfz_3le8JfaLOCU1GqFFwyD9z6ySQCF"/></h4>
+        </div>
+        <div class="modal-body">
+          <button><span>A)</span> Beatles </button>
+          <button><span>B)</span> The Monkeys </button>
+          <button><span>C)</span> Killers </button>
+          <button><span>D)</span> Bestie Boys</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" href"script.js"></script>
