@@ -1,8 +1,13 @@
-
-//$('#button').on.click( handler );
-//$( "#1r1" ).append $( "#myModal" );
-//$( "#1r1" ).append( $( "#myModal");
-
-var container2 = $("button".on('click', function() {
-    display(container2);
+$( document ).ready(function() {
+  var correctAnswer = "C";
+  $("#animalC").on("click", function(){
+    var answer = "C"
+    if (answer === correctAnswer ) {
+      alert("correct!");
+    } else {
+      alert("incorrect");
+    };
+  });
 });
+
+
