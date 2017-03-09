@@ -1,14 +1,16 @@
-h1{
-  /*border:4px dashed rgba(190, 139, 183,.6);*/
-  /*height:90px;*/
-  /*width:455px;*/
-  /*margin:0;*/
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
+
+body{
+  background-image:url("http://blog.hdwallsource.com/wp-content/uploads/2014/11/gradient-wallpaper-26050-26735-hd-wallpapers-680x425.jpg");
+  background-repeat:repeat;
+ background-size:cover;
+}
+
+header{
   font-family:cursive;
   font-size: 4em;
-  color:rgba(190, 139, 183,.6)
+  color:white;
+  text-align:center;
+  padding-bottom:10px;
 }
 .boxes {
  display:flex;
@@ -18,7 +20,7 @@ h1{
 #first{
  width:200px;
  height:100px;
- border:5px solid rgba(139, 184, 190,.8);
+ border:5px solid rgba(71, 188, 229,.7);
  margin-top:-1px;
  margin-left:-3px;
  background-image:url("http://images2.fanpop.com/images/photos/4700000/Wild-Animals-wild-animals-4741245-900-600.jpg");
@@ -31,7 +33,7 @@ h1{
   #second{
  width:200px;
  height:100px;
- border:5px solid rgba(139, 184, 190,.8);
+ border:5px solid rgba(255, 255, 255,.9);
  margin-top:-1px;
  background-image:url("http://static2.businessinsider.com/image/51408b5c6bb3f7a97c000002/22-storytelling-tips-for-writers-from-a-pixar-storyboard-artist.jpg");
  background-size: 200px 100px;
@@ -40,7 +42,7 @@ h1{
 #third{
   width:200px;
  height:100px;
- border:5px solid rgba(139, 184, 190,.8);
+ border:5px solid rgba(71, 188, 229,.9);
  margin-top:-1px;
  background-image:url("https://thecreativepanic.files.wordpress.com/2011/04/boombox.jpg");
  background-size: 200px 100px;
@@ -49,7 +51,7 @@ h1{
 #fourth{
  width:200px;
  height:100px;
- border:5px solid rgba(139, 184, 190,.8);
+ border:5px solid rgba(255, 255, 255,.9);
  margin-top:-1px;
  background-image:url("http://4.bp.blogspot.com/-TgSpB-CJtIc/T95hrV0mnLI/AAAAAAAAC6U/AJr9_XLqsR0/s1600/planets-and-stars-move-differently-in-the-sky.jpg");
  background-size: 200px 100px;
@@ -57,7 +59,7 @@ h1{
 #fifth{
  width:200px;
  height:100px;
- border:5px solid rgba(139, 184, 190,.8);
+ border:5px solid rgba(71, 188, 229,.9);
  margin-top:-1px;
  margin-right:-4px;
 background-image:url("https://secure.static.tumblr.com/21ac89a9b86d7ca8c68623d838b18a1a/vty3549/4Tnnnqepl/tumblr_static_tumblr_static__640.jpg");
