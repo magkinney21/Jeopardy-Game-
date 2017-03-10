@@ -1,3 +1,10 @@
+// $( document ).ready(function(){
+ // var startGame = promt("would you like to play")
+ // if (startGame === "yes"){
+  // alert("Began by Clicking a button with a $");
+ // } else{
+  // alert ("please exit game");
+ // };
 
 $( document ).ready(function() {
   var correctAnswer = "animal100C";
