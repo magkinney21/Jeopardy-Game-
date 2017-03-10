@@ -33,4 +33,4 @@ Features
 Jeopardy music
 Reset Score Button
 Highlights winning squares
-Wireframe-(http://imgur.com/a/lWdE0)
+![Wireframe1](http://imgur.com/a/lWdE0)
