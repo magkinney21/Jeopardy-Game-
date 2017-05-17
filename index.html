@@ -13,18 +13,20 @@
   <body>
     <header>Jeopardy</header>
     <div class="song">
-    <h1 class="play">Press Play</h1>
-      <audio controls>
-      <source src="http://www.newmanagement.com/music/mp3/jeopardy.mp3" type="audio/ogg">
-      </audio>
+      <p class="play">Press Play</p>
+       <audio controls>
+         <source src="http://www.newmanagement.com/music/mp3/jeopardy.mp3" type="audio/ogg">
+       </audio>
       <div class= ="counter">
         <div class ="score">
-        <p id ="score">score</p>
+        <p id ="score">Score</p>
           <span id="number">0</span>
         </div>
 
       </div>
-    </div>
+    </div><hr>
+    <br>
+  <!--   <div class="photos">
     <h2>
       <p id="p1">animals</p>
       <p id="p2">art</p>
@@ -32,17 +34,18 @@
       <p id="p4">space</p>
       <p id="p5">books</p>
     </h2>
+  </div> -->
   <div class = "boxes">
-    <div id="first"></div>
-      <div id="second"></div>
-      <div id="third"></div>
-      <div id="fourth"></div>
-      <div id="fifth"></div>
+    <div id="first"  class="col" data-toggle="tooltip" title="Animals"></div>
+      <div id="second" class="col" data-toggle="tooltip" title="Art"></div>
+      <div id="third" class="col" data-toggle="tooltip" title="Music"></div>
+      <div id="fourth" class="col" data-toggle="tooltip" title="Space"></div>
+      <div id="fifth" class="col" data-toggle="tooltip" title="Books"></div>
    </div>
 
 <div class="container1">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal100">$100</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal100">Animals<br>$100</button>
 
   <!-- Modal -->
   <div class="modal fade" id="animal100" role="dialog">
@@ -71,7 +74,7 @@
 </div>
     <div class="container1">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art100">$100</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art100">Art<br>$100</button>
 
   <!-- Modal -->
   <div class="modal fade" id="art100" role="dialog">
@@ -99,7 +102,7 @@
   </div>
 </div><div class="container1">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music100">$100</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music100">Music<br>$100</button>
 
   <!-- Modal -->
   <div class="modal fade" id="music100" role="dialog">
@@ -127,7 +130,7 @@
   </div>
 </div><div class="container1">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space100">$100</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space100">Space<br>$100</button>
 
   <!-- Modal -->
   <div class="modal fade" id="space100" role="dialog">
@@ -155,7 +158,7 @@
   </div>
 </div><div class="container1">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book100">$100</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book100">Books<br>$100</button>
 
   <!-- Modal -->
   <div class="modal fade" id="book100" role="dialog">
@@ -185,7 +188,7 @@
     <!--Start Row $200-->
     <div class="container2">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal200">$200</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal200">Animals<br>$200</button>
 
   <!-- Modal -->
   <div class="modal fade" id="animal200" role="dialog">
@@ -214,7 +217,7 @@
 </div>
     <div class="container2">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art200">$200</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art200">Art<br>$200</button>
 
   <!-- Modal -->
   <div class="modal fade" id="art200" role="dialog">
@@ -242,7 +245,7 @@
   </div>
 </div><div class="container2">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music200">$200</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music200">Music<br>$200</button>
 
   <!-- Modal -->
   <div class="modal fade" id="music200" role="dialog">
@@ -270,7 +273,7 @@
   </div>
 </div><div class="container2">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space200">$200</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space200">Space<br>$200</button>
 
   <!-- Modal -->
   <div class="modal fade" id="space200" role="dialog">
@@ -298,7 +301,7 @@
   </div>
 </div><div class="container2">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book200">$200</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book200">Books<br>$200</button>
 
   <!-- Modal -->
   <div class="modal fade" id="book200" role="dialog">
@@ -327,7 +330,7 @@
 </div>
     <!--start row 3--><div class="container3">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animals300">$300</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animals300">Animals<br>$300</button>
 
   <!-- Modal -->
   <div class="modal fade" id="animals300" role="dialog">
@@ -355,7 +358,7 @@
   </div>
 </div><div class="container3">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art300">$300</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art300">Art<br>$300</button>
 
   <!-- Modal -->
   <div class="modal fade" id="art300" role="dialog">
@@ -384,7 +387,7 @@
 </div>
     <div class="container3">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music300">$300</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music300">Music<br>$300</button>
 
   <!-- Modal -->
   <div class="modal fade" id="music300" role="dialog">
@@ -412,7 +415,7 @@
   </div>
 </div><div class="container3">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space300">$300</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space300">Space<br>$300</button>
 
   <!-- Modal -->
   <div class="modal fade" id="space300" role="dialog">
@@ -440,7 +443,7 @@
   </div>
 </div><div class="container3">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book300">$300</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book300">Books<br>$300</button>
 
   <!-- Modal -->
   <div class="modal fade" id="book300" role="dialog">
@@ -470,7 +473,7 @@
     <!--start row 4-->
     <div class="container4">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal400">$400</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal400">Animals<br>$400</button>
 
   <!-- Modal -->
   <div class="modal fade" id="animal400" role="dialog">
@@ -499,7 +502,7 @@
 </div>
     <div class="container4">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art400">$400</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art400">Art<br>$400</button>
 
   <!-- Modal -->
   <div class="modal fade" id="art400" role="dialog">
@@ -527,7 +530,7 @@
   </div>
 </div><div class="container4">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music400">$400</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music400">Music<br>$400</button>
 
   <!-- Modal -->
   <div class="modal fade" id="music400" role="dialog">
@@ -555,7 +558,7 @@
   </div>
 </div><div class="container4">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space400">$400</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space400">Space<br>$400</button>
 
   <!-- Modal -->
   <div class="modal fade" id="space400" role="dialog">
@@ -583,7 +586,7 @@
   </div>
 </div><div class="container4">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book400">$400</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book400">Books<br>$400</button>
 
   <!-- Modal -->
   <div class="modal fade" id="book400" role="dialog">
@@ -613,7 +616,7 @@
     <!--start row 5-->
     <div class="container5">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal500">$500</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal500">Animals<br>$500</button>
 
   <!-- Modal -->
   <div class="modal fade" id="animal500" role="dialog">
@@ -641,7 +644,7 @@
 </div>
     <div class="container5">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art500">$500</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art500">Art<br>$500</button>
 
   <!-- Modal -->
   <div class="modal fade" id="art500" role="dialog">
@@ -669,7 +672,7 @@
   </div>
 </div><div class="container5">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music500">$500</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music500">Music<br>$500</button>
 
   <!-- Modal -->
   <div class="modal fade" id="music500" role="dialog">
@@ -697,7 +700,7 @@
   </div>
 </div><div class="container5">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space500">$500</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space500">Space<br>$500</button>
 
   <!-- Modal -->
   <div class="modal fade" id="space500" role="dialog">
@@ -726,7 +729,7 @@
 </div>
     <div class="container5">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book500">$500</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book500">Books<br>$500</button>
 
   <!-- Modal -->
   <div class="modal fade" id="book500" role="dialog">

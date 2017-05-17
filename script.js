@@ -478,3 +478,7 @@ $( document ).ready(function() {
    console.log(this.id);
   });
 })
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+

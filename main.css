@@ -1,3 +1,6 @@
+*{
+  @media screen and (min-width:640px)
+}
 
 body{
   background-image:url("http://blog.hdwallsource.com/wp-content/uploads/2014/11/gradient-wallpaper-26050-26735-hd-wallpapers-680x425.jpg");
@@ -12,15 +15,13 @@ header{
   text-align:center;
   padding-bottom:10px;
 }
-.play{
-  position: absolute;
-  left: 43%;
+.song{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
   color: white;
   font-family: cursive;
-  margin-top: -30px;
-  margin-left: 20px;
-  font-size: 20px;
-
+  font-size: 30px;
 }
 
 h2{
@@ -32,83 +33,64 @@ p{
   font-family:cursive;
   color:white;
 }
+/*.photos{
+  display: flex;
+  justify-content: space-around;
+}*/
 #p1{
   margin-left:30px;
-
 }
 #p2{
   margin-left:20px;
-color: rgba(71, 188, 229,.7);
 
 }
 #p3{
   margin-right:10px;
   margin-left:40px
-  color:pink;
 }
 #p4{
  margin-right:20px;
- color:rgba(71, 188, 229,.7);
-
 }
 #p5{
   margin-right:80px;
-
 }
 
-.boxes {
+.boxes,.col {
  display:flex;
- flex-direction:row;
  justify-content:space-between;
  align-items:center;
  margin:20px;
+ color:white;
+
 }
-#first{
+.col{
  width:200px;
  height:100px;
  border:5px solid rgba(71, 188, 229,.7);
- margin-top:-1px;
- margin-left:20px;
- background-image:url("http://images2.fanpop.com/images/photos/4700000/Wild-Animals-wild-animals-4741245-900-600.jpg");
  background-size: 200px 100px;
  background-repeat: no-repeat;
+
+}
+#first{
+ background-image:url("http://images2.fanpop.com/images/photos/4700000/Wild-Animals-wild-animals-4741245-900-600.jpg");
+
 }
   #second{
- width:200px;
- height:100px;
  border:5px solid rgba(255, 255, 255,.9);
- margin-top:-1px;
  background-image:url("http://static2.businessinsider.com/image/51408b5c6bb3f7a97c000002/22-storytelling-tips-for-writers-from-a-pixar-storyboard-artist.jpg");
- background-size: 200px 100px;
- background-repeat: no-repeat;
 }
 #third{
- width:200px;
- height:100px;
- padding-left:180px;
- border:5px solid rgba(71, 188, 229,.9);
- margin-top:-1px;
  background-image:url("https://thecreativepanic.files.wordpress.com/2011/04/boombox.jpg");
- background-size: 200px 100px;
- background-repeat: no-repeat;
+
 }
 #fourth{
- width:200px;
- height:100px;
  border:5px solid rgba(255, 255, 255,.9);
- margin-top:-1px;
  background-image:url("http://4.bp.blogspot.com/-TgSpB-CJtIc/T95hrV0mnLI/AAAAAAAAC6U/AJr9_XLqsR0/s1600/planets-and-stars-move-differently-in-the-sky.jpg");
- background-size: 200px 100px;
- background-repeat: no-repeat;}
+}
 #fifth{
- width:200px;
- height:100px;
- border:5px solid rgba(71, 188, 229,.9);
- margin-top:-1px;
- margin-right:50px;
-background-image:url("https://secure.static.tumblr.com/21ac89a9b86d7ca8c68623d838b18a1a/vty3549/4Tnnnqepl/tumblr_static_tumblr_static__640.jpg");
- background-size: 200px 100px;
- background-repeat: no-repeat;
+
+ background-image:url("https://secure.static.tumblr.com/21ac89a9b86d7ca8c68623d838b18a1a/vty3549/4Tnnnqepl/tumblr_static_tumblr_static__640.jpg");
+
 }
 .container1,.container2,.container3, .container4, .container5{
   display:inline-block;
@@ -117,33 +99,9 @@ background-image:url("https://secure.static.tumblr.com/21ac89a9b86d7ca8c68623d83
   width:200px;
   padding:20px;
   margin:20px;
-/*   border:4px dotted white; */
 
 }
 
-.song{
-  border: 4px dotted pink;
-  border-width: 7px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-#number{
-  margin-left: 50px;
-  font-size: 20px;
-  color:pink;
-  border:4px solid white;
-
-
-}
-#score{
-  font-size: 20px;
-  text-align: left;
-  margin-top: -30px;
-  position: absolute;
-  margin-left: 35px;
 
 }
 .modal-body{
@@ -167,4 +125,7 @@ button{
 .btnclose{
   height:30px;
   width:50px;
+}
+#number{
+  color: pink;
 }
