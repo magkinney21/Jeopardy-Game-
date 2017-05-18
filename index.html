@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="main.css" >
   <title>Jeopardy</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 
   <body>
+  <div class="jumbotron">
     <header>Jeopardy</header>
     <div class="song">
       <p class="play">Press Play</p>
@@ -24,23 +26,16 @@
         </div>
 
       </div>
-    </div><hr>
+    </div>
+  </div>
     <br>
-  <!--   <div class="photos">
-    <h2>
-      <p id="p1">animals</p>
-      <p id="p2">art</p>
-      <p id="p3">music</p>
-      <p id="p4">space</p>
-      <p id="p5">books</p>
-    </h2>
-  </div> -->
+
   <div class = "boxes">
-    <div id="first"  class="col" data-toggle="tooltip" title="Animals"></div>
-      <div id="second" class="col" data-toggle="tooltip" title="Art"></div>
-      <div id="third" class="col" data-toggle="tooltip" title="Music"></div>
-      <div id="fourth" class="col" data-toggle="tooltip" title="Space"></div>
-      <div id="fifth" class="col" data-toggle="tooltip" title="Books"></div>
+    <div id="first"  class="col" data-toggle="tooltip" title="Animals"><img class="img-responsive img-rounded hidden-xs" id="pic1" src="http://images2.fanpop.com/images/photos/4700000/Wild-Animals-wild-animals-4741245-900-600.jpg" alt="animals"></div>
+      <div id="second" class="col" data-toggle="tooltip" title="Art"><img class="img-responsive img-rounded hidden-xs" id="pic2" src="http://static2.businessinsider.com/image/51408b5c6bb3f7a97c000002/22-storytelling-tips-for-writers-from-a-pixar-storyboard-artist.jpg" alt="art"></div>
+      <div id="third" class="col" data-toggle="tooltip" title="Music"><img class="img-responsive img-rounded hidden-xs" id="pic3" src="https://thecreativepanic.files.wordpress.com/2011/04/boombox.jpg" alt="music"></div>
+      <div id="fourth" class="col" data-toggle="tooltip" title="Space"><img class="img-responsive img-rounded hidden-xs" id="pic4" src="http://4.bp.blogspot.com/-TgSpB-CJtIc/T95hrV0mnLI/AAAAAAAAC6U/AJr9_XLqsR0/s1600/planets-and-stars-move-differently-in-the-sky.jpg" alt="space" ></div>
+      <div id="fifth" class="col" data-toggle="tooltip" title="Books"><img class="img-responsive img-rounded hidden-xs" id="pic5" src="https://secure.static.tumblr.com/21ac89a9b86d7ca8c68623d838b18a1a/vty3549/4Tnnnqepl/tumblr_static_tumblr_static__640.jpg" alt="books" style=""></div>
    </div>
 
 <div class="container1">
@@ -72,7 +67,7 @@
     </div>
   </div>
 </div>
-    <div class="container1">
+    <div class="container2">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#art100">Art<br>$100</button>
 
@@ -100,7 +95,7 @@
 
     </div>
   </div>
-</div><div class="container1">
+</div><div class="container3">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music100">Music<br>$100</button>
 
@@ -128,7 +123,7 @@
 
     </div>
   </div>
-</div><div class="container1">
+</div><div class="container4">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space100">Space<br>$100</button>
 
@@ -156,7 +151,7 @@
 
     </div>
   </div>
-</div><div class="container1">
+</div><div class="container5">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book100">Books<br>$100</button>
 
@@ -186,7 +181,7 @@
   </div>
 </div>
     <!--Start Row $200-->
-    <div class="container2">
+    <div class="container1">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#animal200">Animals<br>$200</button>
 
@@ -243,7 +238,7 @@
 
     </div>
   </div>
-</div><div class="container2">
+</div><div class="container3">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#music200">Music<br>$200</button>
 
@@ -271,7 +266,7 @@
 
     </div>
   </div>
-</div><div class="container2">
+</div><div class="container4">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#space200">Space<br>$200</button>
 
@@ -299,7 +294,7 @@
 
     </div>
   </div>
-</div><div class="container2">
+</div><div class="container5">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#book200">Books<br>$200</button>
 
