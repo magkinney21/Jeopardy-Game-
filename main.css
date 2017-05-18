@@ -1,12 +1,5 @@
 
-/*@media screen and (min-width:350px){*/
-
-/*body{
-  background-image:url("");
-  background-repeat:repeat;
- background-size:cover;
-
-}*/
+@media screen and (min-width:100px){
 
 header{
   font-family:cursive;
@@ -44,15 +37,9 @@ p{
  margin:20px;
  color:white;
 }
-.col{
- width:200px;
- height:100px;
-}
 .container1,.container2,.container3, .container4, .container5{
   display:inline-block;
   align-items: center;
-  height:100px;
-  width:200px;
   padding:20px;
   margin:20px;
 }
@@ -97,3 +84,4 @@ padding-top: 20px;
 margin-top: 50px;
 }
 
+}
